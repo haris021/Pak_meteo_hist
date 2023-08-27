@@ -41,3 +41,26 @@ Available metrics are:
 - **Smoothing:** Degree of smoothing to apply to the historical data. 0 means no smoothing. The higher the value, the more smoothing is applied. Smoothing is done using LOWESS (Locally Weighted Scatterplot Smoothing).
 - **Peak method:** Method to determine the peaks. Either the difference to the historical mean (default) or the difference to the 05/95 percentiles. The percentile method focuses more on extreme events, while the mean method focuses more on the difference to the historical average.
 - **Emphasize peaks:** If checked, peaks that leave the gray area between the 5 and 95 percentiles will be highlighted more.
+
+### Examples
+
+<p float="left">
+  <a href="https://github.com/haris021/Pak_meteo_hist/blob/main/examples/islamabad-pakistan-precipitation-rolling-2023-ref-1961-1990.png">
+    <img src="https://github.com/haris021/Pak_meteo_hist/blob/main/examples/islamabad-pakistan-precipitation-rolling-2023-ref-1961-1990.png?raw=true" width="250" />
+  </a>
+  <a href="https://github.com/haris021/Pak_meteo_hist/blob/main/examples/quetta-pakistan-temperature-mean-2023-ref-1961-1990.png">
+    <img src="https://github.com/haris021/Pak_meteo_hist/blob/main/examples/quetta-pakistan-temperature-mean-2023-ref-1961-1990.png?raw=true" width="250" />
+  </a>
+  <a href="https://github.com/haris021/Pak_meteo_hist/blob/main/examples/jacobabad-pakistan-temperature-mean-2023-ref-1961-1990.png">
+    <img src="https://github.com/haris021/Pak_meteo_hist/blob/main/examples/jacobabad-pakistan-temperature-mean-2023-ref-1961-1990.png?raw=true" width="250" />
+  </a>
+  <a href="https://github.com/haris021/Pak_meteo_hist/blob/main/examples/dera-ismail-khan-pakistan-temperature-mean-2023-ref-1961-1990.png">
+    <img src="https://github.com/haris021/Pak_meteo_hist/blob/main/examples/dera-ismail-khan-pakistan-temperature-mean-2023-ref-1961-1990.png?raw=true" width="250" />
+  </a>
+  <a href="https://github.com/haris021/Pak_meteo_hist/blob/main/examples/bahawalpur-pakistan-temperature-mean-2023-ref-1961-1990 (1).png">
+    <img src="https://github.com/haris021/Pak_meteo_hist/blob/main/examples/bahawalpur-pakistan-temperature-mean-2023-ref-1961-1990 (1).png?raw=true" width="250" />
+  </a>
+  <a href="https://github.com/haris021/Pak_meteo_hist/blob/main/examples/astore-pakistan-temperature-mean-2023-ref-1961-1990.png">
+    <img src="https://github.com/haris021/Pak_meteo_hist/blob/main/examples/astore-pakistan-temperature-mean-2023-ref-1961-1990.png?raw=true" width="250" />
+  </a>
+</p>
