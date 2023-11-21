@@ -59,6 +59,7 @@ def main() -> None:
         # Create a placeholder for messages
         message_box = st.empty()
         build_menu()
+        st.sidebar.image("wcs.png", width=100)
 
     with col2:
         plot_placeholder = st.empty()
