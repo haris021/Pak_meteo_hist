@@ -50,6 +50,7 @@ def main() -> None:
         col1, col2 = st.container(), st.container()
 
     with col1:
+        st.sidebar.image("wcs.png", width=100)
         # Set page title
         st.markdown(
             "<h3 style='padding-top:0;'>Historical Meteo Graphs</h2>",
@@ -59,7 +60,7 @@ def main() -> None:
         # Create a placeholder for messages
         message_box = st.empty()
         build_menu()
-        st.sidebar.image("wcs.png", width=100)
+        
 
     with col2:
         plot_placeholder = st.empty()
