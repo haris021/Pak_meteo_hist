@@ -50,7 +50,7 @@ def main() -> None:
         col1, col2 = st.container(), st.container()
 
     with col1:
-        st.sidebar.image("wcs.png", width=100)
+        st.image("wcs.png", width=100)
         # Set page title
         st.markdown(
             "<h3 style='padding-top:0;'>Historical Meteo Graphs</h2>",
